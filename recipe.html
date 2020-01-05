@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link href="/styles/styles.css" rel="stylesheet">
+
+    
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <h1 class="header__title">Manage Recipes</h1>
+
+        </div>
+
+    </div>
+    
+    <div class="container">
+        <button class="button" id="home-button">Home</button>
+        <input placeholder="Title of Recipe" type="text/html" id="recipe-title" class="title-input">
+        <textarea placeholder="Steps.." id="recipe-instructions" class="body-input"></textarea>
+
+        <div id="ingredients"></div>
+        <div>
+            <form id="form2">
+                <input type="text/html" name="form2input" placeholder="add ingredients">
+                <button id="add-ingredients" class="button">Add</button>
+            </form>
+        </div>
+        <button id="remove-recipe" class="button">Delete Recipe</button>
+    </div>
+
+  
+ 
+    <script src="/scripts/uuidv4.js"></script>
+    <script src="/scripts/functions.js"></script>
+    <script src="/scripts/recipes-edit.js"></script>
+</body>
+
+</html>
